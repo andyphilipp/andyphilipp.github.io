@@ -1,2 +1,1 @@
-# andyphilipp.github.io
-http://andyphilipp.github.io
+[andy.philipp.no](http://andy.philipp.no)

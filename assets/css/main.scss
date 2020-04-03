@@ -1,0 +1,53 @@
+---
+---
+.icon-github-circled:hover {
+    color: #444;
+}
+
+.icon-twitter-squared:hover {
+    color: #1DA1F2;
+}
+
+.icon-linkedin-squared:hover {
+    color: #4875B4;
+}
+
+.about img {
+    border-radius: 50%;
+}
+
+pre {
+    padding: 15px;
+    overflow: auto;
+}
+
+.social a {
+    color: #ccc;
+}
+
+.post-back {
+    border-bottom: 1px solid #eee;
+    font-size: 15px;
+    color: #777;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    padding-bottom: 10px;
+    font-weight: normal;
+    width: 100%;
+    display: block;
+}
+
+.posts, .post-container {
+    list-style-type: none;
+    margin: 45px 30px;
+    padding-inline-start: 30px;
+}
+
+.content, .container, body, html {
+    height: 100%;
+}
+
+.centered {
+    vertical-align: middle;
+}

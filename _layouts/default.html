@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {%- include head.html -%}
+</head>
+<body>
+<main class="container">
+    <section class="about">
+        <img src="{{ "/assets/andyphilipp.jpg" | relative_url }}" alt="{{ site.name }}">
+        <h2 id="title">
+            {{ site.title }}
+        </h2>
+        <p class="tagline">{{ site.subtitle }}</p>
+        <ul class="social">
+            {%- if site.social_links.github -%}
+            <a href="https://github.com/{{ site.social_links.github }}">
+                <li>
+                    <i class="icon-github-circled"></i>
+                </li>
+            </a>
+            {%- endif -%}
+            {%- if site.social_links.linkedIn -%}
+            <a href="https://www.linkedin.com/{{ site.social_links.linkedIn }}">
+                <li>
+                    <i class="icon-linkedin-squared"></i>
+                </li>
+            </a>
+            {%- endif -%}
+            {%- if site.social_links.twitter -%}
+            <a href="https://twitter.com/{{ site.social_links.twitter }}">
+                <li>
+                    <i class="icon-twitter-squared"></i>
+                </li>
+            </a>
+            {%- endif -%}
+        </ul>
+
+        {%- if site.navigation -%}
+        <nav class="navigation">
+            <ul>
+                {% for link in site.navigation %}
+                <li>
+                    <a href="{{ link.url }}">{{ link.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </nav>
+        {%- endif -%}
+    </section>
+    <section class="content">
+        {{ content }}
+    </section>
+</main>
+</body>
+</html>

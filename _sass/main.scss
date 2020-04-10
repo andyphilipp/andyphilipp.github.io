@@ -36,6 +36,19 @@ pre {
     display: block;
 }
 
+.post-back-bottom {
+    border-top: 1px solid #eee;
+    font-size: 15px;
+    color: #777;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    padding-top: 10px;
+    font-weight: normal;
+    width: 100%;
+    display: block;
+}
+
 .posts, .post-container {
     list-style-type: none;
     margin: 45px 30px;

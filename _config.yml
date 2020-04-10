@@ -31,7 +31,6 @@ plainwhite:
   date_format: "%b %-d, %Y"
 
 # Build settings
-theme: plainwhite
 plugins:
   - jekyll-feed
 
